@@ -40,7 +40,7 @@ const Timer = () => {
       <div className="w-28">
         <CircularProgressbar
           className={`${
-            isRunning ? "fill-white stroke-c4/80" : "fill-white/50 stroke-c4/40"
+            isRunning ? "fill-white stroke-teal/80" : "fill-white/50 stroke-teal/40"
           }`}
           value={(seconds * 100) / session}
           text={`${minutes}:${formattedSeconds}`}
@@ -51,7 +51,7 @@ const Timer = () => {
         <button
           onClick={handlePause}
           disabled={!isRunning}
-          className="transition-all disabled:text-rose-50/80 text-rose-50/90 hover:text-rose-50 text-xl w-8 group gap-2 disabled:bg-c2/40 bg-c2/50   h-8  rounded-full border-2 disabled:border-c4/20 border-c4/40 shadow-none shadow-c3/20 hover:shadow-lg hover:shadow-c3/40 duration-100 hover:border-c4/60  p-1 flex justify-center items-center active:border-c4 active:shadow-c4/50 active:text-white select-none cursor-pointer"
+          className="transition-all disabled:text-teal-50/80 text-teal-50/90 hover:text-teal-50 text-xl w-8 group gap-2 disabled:bg-teal/40 bg-teal/50   h-8  rounded-full border-2 disabled:border-teal/20 border-teal/40 shadow-none shadow-c3/20 hover:shadow-lg hover:shadow-c3/40 duration-100 hover:border-teal/60  p-1 flex justify-center items-center active:border-teal active:shadow-teal/50 active:text-white select-none cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const Timer = () => {
         <button
           onClick={handleStart}
           disabled={isRunning}
-          className="transition-all disabled:text-rose-50/80 text-rose-50/90 hover:text-rose-50 text-xl w-10 group gap-2 disabled:bg-c2/40 bg-c2/50   h-10  rounded-full border-2 disabled:border-c4/20 border-c4/40 shadow-none shadow-c3/20 hover:shadow-lg hover:shadow-c3/40 duration-100 hover:border-c4/60  p-1 flex justify-center items-center active:border-c4 active:shadow-c4/50 active:text-white select-none cursor-pointer"
+          className="transition-all disabled:text-teal-50/80 text-teal-50/90 hover:text-teal-50 text-xl w-10 group gap-2 disabled:bg-teal/40 bg-teal/50   h-10  rounded-full border-2 disabled:border-teal/20 border-teal/40 shadow-none shadow-c3/20 hover:shadow-lg hover:shadow-c3/40 duration-100 hover:border-teal/60  p-1 flex justify-center items-center active:border-teal active:shadow-teal/50 active:text-white select-none cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ const Timer = () => {
 
         <button
           onClick={handleReset}
-          className="transition-all disabled:text-rose-50/80 text-rose-50/90 hover:text-rose-50 text-xl w-8 group gap-2 disabled:bg-c2/40 bg-c2/50   h-8  rounded-full border-2 disabled:border-c4/20 border-c4/40 shadow-none shadow-c3/20 hover:shadow-lg hover:shadow-c3/40 duration-100 hover:border-c4/60  p-1 flex justify-center items-center active:border-c4 active:shadow-c4/50 active:text-white select-none cursor-pointer"
+          className="transition-all disabled:text-teal-50/80 text-teal-50/90 hover:text-teal-50 text-xl w-8 group gap-2 disabled:bg-teal/40 bg-teal/50   h-8  rounded-full border-2 disabled:border-teal/20 border-teal/40 shadow-none shadow-c3/20 hover:shadow-lg hover:shadow-c3/40 duration-100 hover:border-teal/60  p-1 flex justify-center items-center active:border-teal active:shadow-teal/50 active:text-white select-none cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

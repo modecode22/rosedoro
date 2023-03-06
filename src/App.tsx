@@ -1,5 +1,6 @@
 import './App.css'
 import Btn from './components/Btn';
+import SimpleDialogDemo from './components/SimpleDialog';
 import HeadDash from './components/HeadDash';
 import Header from './components/Header';
 import SongBtn from './components/SongBtn';
@@ -10,9 +11,12 @@ import Timer from './components/Timer';
 function App() {
 
   return (
-    <div className="  dark:text-rose-50  w-full gap-5 ">
+    <div className="  dark:text-teal-50  w-full gap-5 ">
       <Header />
       <div className="flex flex-col items-center justify-center gap-2 col-span-4 w-full p-5 ">
+        <SimpleDialogDemo/>
+        
+        
         <Timer />
         <HeadDash />
       </div>
